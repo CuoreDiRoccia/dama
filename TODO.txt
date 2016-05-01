@@ -1,5 +1,9 @@
-- posizionare le pedine
+﻿- le pedina diventa un oggetto
+- verifica locazione valida per la pedina(quadrati neri,dentro la scacchiera)
 
+
+
+- posizionare le pedine
 - scegliere una pedina da muovere
 
 
