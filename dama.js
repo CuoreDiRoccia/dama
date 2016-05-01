@@ -1,4 +1,4 @@
-//YES
+
 
 var righeDama = [0,1,2,3,4,5,6,7];
 var colonneDama = [0,1,2,3,4,5,6,7];
@@ -51,7 +51,7 @@ var possibileErroreDB = function (mossa){
     //console.log(movimentoDestroPossibile,movimentoSinistroPossibile);
     return mossaPossibile = [movimentoSinistroPossibile,movimentoDestroPossibile];
 };
-con
+
 var correzzioneMossa = function(mossaDecisa,possibileErrore){
     var procedi;
     if (possibileErrore == [true,true]){
@@ -62,6 +62,6 @@ var correzzioneMossa = function(mossaDecisa,possibileErrore){
 
 
 
-// YES;
+
 
 
