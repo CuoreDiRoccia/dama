@@ -1,3 +1,5 @@
+//YES
+
 var righeDama = [0,1,2,3,4,5,6,7];
 var colonneDama = [0,1,2,3,4,5,6,7];
 //DB = dama bianca
@@ -60,6 +62,6 @@ var correzzioneMossa = function(mossaDecisa,possibileErrore){
 
 
 
-
+// YES;
 
 
