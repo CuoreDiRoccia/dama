@@ -1,6 +1,6 @@
 
-var righeDama = [0,1,2,3,4,5,6,7];
-var colonneDama = [0,1,2,3,4,5,6,7];
+var righeDama = [1,2,3,4,5,6,7,8];
+var colonneDama = [1,2,3,4,5,6,7,8];
 //DB = dama bianca
 
 var movimentoDestroDB = function (riga,colonna){
@@ -25,11 +25,13 @@ var movimentoSinistroDB = function (riga,colonna){
 var mossaDecisa = function (movDx,movSx){
     var mossaDaFare;
     var mossaCasuale = Math.ceil(Math.random() * 2);
+
     if (mossaCasuale == 1) {
         mossaDaFare = movDx;
     } else {
         mossaDaFare = movSx;
     }
+
     return mossaDaFare;
 };
 
@@ -51,7 +53,7 @@ var possibileErroreDB = function (mossa){
     return mossaPossibile = [movimentoSinistroPossibile,movimentoDestroPossibile];
 };
 
-var correzzioneMossa = function(mossaDecisa,possibileErrore){
+var correzzioneMossa = function(possibileErrore){
     var procedi;
     if (possibileErrore == [true,true]){
         procedi = true;
@@ -60,7 +62,28 @@ var correzzioneMossa = function(mossaDecisa,possibileErrore){
 };
 
 
+// le righe vanno da 1 a 8 verso l'alto
+// le colonne vanno da 1 a 8 verso dx
+var pedina = {
+    riga:    1,
+    colonna: 2,
+    posizioneCorrente: function (riga, colonna){
+        console.log("Mi trovo in ", riga, colonna);
+    }
+};
 
+//pedina.riga = 4;
 
+/*
+var posizionePedina = function(pedina) {
+    var colonna = convertiColonna(pedina.colonna);
+    console.log(colonna + pedina.riga);    // 'B1'
+}
 
+var convertiColonna = function(colonna) {
+    
+    return 'B';
+}
+*/
+pedina.posizioneCorrente(pedina.riga, pedina.colonna);
 

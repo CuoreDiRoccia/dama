@@ -1,0 +1,15 @@
+- posizionare le pedine
+
+- scegliere una pedina da muovere
+
+
+- definire i movimenti
+
+? è una mossa valida?
+
+- definire i turni
+    - inizia il bianco
+    - cambio giocatore
+
+- giocare la partita
+
