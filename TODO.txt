@@ -1,9 +1,14 @@
 ﻿- le pedina diventa un oggetto
 - verifica locazione valida per la pedina(quadrati neri,dentro la scacchiera)
-
-
-
 - posizionare le pedine
+
+
+
+--------- sono arrivato qui ----------
+
+
+
+
 - scegliere una pedina da muovere
 
 
